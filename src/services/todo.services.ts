@@ -1,7 +1,7 @@
 import { TaskRequest } from "@/components/HomePage/types";
 import { toast } from "react-toastify";
 
-const apiBaseUrl = "/todoList";
+const apiBaseUrl = "/api/todoList";
 
 export const fetchTodos = async () => {
   try {
